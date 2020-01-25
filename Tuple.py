@@ -77,3 +77,12 @@ priority_index = {
 
 # call as a list otherwise it would just be a view object
 print(list(priority_index.keys()))
+
+# zip() 2 lists into a tuple
+
+positions = ['2b', '3b', 'ss', 'dh']
+players = ['Altuve', 'Bregman', 'Correa', 'Gattis']
+
+scoreboard = zip(positions, players)
+
+print(list(scoreboard))
